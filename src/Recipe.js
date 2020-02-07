@@ -8,7 +8,7 @@ const Recipe =({title,calories,image,ingredients,totalTime}) =>{
             <ol>
                 {ingredients.map(ingredient =>(
                     <li>
-                        {ingredient.text}
+                        {ingredient.text}  ({ingredient.weight})
                     </li>
                 ))}
             </ol>
